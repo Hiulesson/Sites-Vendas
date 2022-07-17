@@ -20,6 +20,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
+
+        <!-- Starter Web-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+
     </dependencies>
 
     <build>
@@ -30,6 +38,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
