@@ -17,12 +17,11 @@ public class ClienteService {
 
     public void salvarCliente(Cliente cliente){
         validarCliente(cliente);
-        ClienteRepository clienteRepository = new ClienteRepository();
-        clienteRepository.persistir(cliente);
-
+        this.repository.persistir(cliente);
     }
 
     public void validarCliente(Cliente cliente){
         //Aplicar validações
     }
+
 }
